@@ -1,0 +1,5 @@
+C:\Users\fg222cj\Documents\Visual Studio 2012\Projects\ASP.NET-fg222cj\Stegtest1\Stegtest1\bin\Stegtest1.dll
+C:\Users\fg222cj\Documents\Visual Studio 2012\Projects\ASP.NET-fg222cj\Stegtest1\Stegtest1\bin\Stegtest1.pdb
+C:\Users\fg222cj\Documents\Visual Studio 2012\Projects\ASP.NET-fg222cj\Stegtest1\Stegtest1\obj\Debug\Stegtest1.csprojResolveAssemblyReference.cache
+C:\Users\fg222cj\Documents\Visual Studio 2012\Projects\ASP.NET-fg222cj\Stegtest1\Stegtest1\obj\Debug\Stegtest1.dll
+C:\Users\fg222cj\Documents\Visual Studio 2012\Projects\ASP.NET-fg222cj\Stegtest1\Stegtest1\obj\Debug\Stegtest1.pdb

@@ -1,0 +1,11 @@
+﻿body {
+}
+
+.Column {
+    display:inline-block;
+    width:49%;
+}
+
+.Main {
+    width:400px;
+}

@@ -1,0 +1,5 @@
+C:\Users\fg222cj\Documents\Visual Studio 2012\Projects\ASP.NET-fg222cj\BildGalleri\BildGalleri\obj\Debug\BildGalleri.csprojResolveAssemblyReference.cache
+C:\Users\fg222cj\Documents\Visual Studio 2012\Projects\ASP.NET-fg222cj\BildGalleri\BildGalleri\bin\BildGalleri.dll
+C:\Users\fg222cj\Documents\Visual Studio 2012\Projects\ASP.NET-fg222cj\BildGalleri\BildGalleri\bin\BildGalleri.pdb
+C:\Users\fg222cj\Documents\Visual Studio 2012\Projects\ASP.NET-fg222cj\BildGalleri\BildGalleri\obj\Debug\BildGalleri.dll
+C:\Users\fg222cj\Documents\Visual Studio 2012\Projects\ASP.NET-fg222cj\BildGalleri\BildGalleri\obj\Debug\BildGalleri.pdb

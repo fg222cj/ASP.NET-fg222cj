@@ -1,0 +1,5 @@
+C:\Users\fg222cj\Documents\Visual Studio 2012\Projects\ASP.NET-fg222cj\HemligaTalet\HemligaTalet\bin\HemligaTalet.dll
+C:\Users\fg222cj\Documents\Visual Studio 2012\Projects\ASP.NET-fg222cj\HemligaTalet\HemligaTalet\bin\HemligaTalet.pdb
+C:\Users\fg222cj\Documents\Visual Studio 2012\Projects\ASP.NET-fg222cj\HemligaTalet\HemligaTalet\obj\Debug\HemligaTalet.csprojResolveAssemblyReference.cache
+C:\Users\fg222cj\Documents\Visual Studio 2012\Projects\ASP.NET-fg222cj\HemligaTalet\HemligaTalet\obj\Debug\HemligaTalet.dll
+C:\Users\fg222cj\Documents\Visual Studio 2012\Projects\ASP.NET-fg222cj\HemligaTalet\HemligaTalet\obj\Debug\HemligaTalet.pdb

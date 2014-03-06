@@ -1,0 +1,5 @@
+C:\Users\fg222cj\Documents\Visual Studio 2012\Projects\ASP.NET-fg222cj\KassaKvitto\KassaKvitto\bin\KassaKvitto.dll
+C:\Users\fg222cj\Documents\Visual Studio 2012\Projects\ASP.NET-fg222cj\KassaKvitto\KassaKvitto\bin\KassaKvitto.pdb
+C:\Users\fg222cj\Documents\Visual Studio 2012\Projects\ASP.NET-fg222cj\KassaKvitto\KassaKvitto\obj\Debug\KassaKvitto.csprojResolveAssemblyReference.cache
+C:\Users\fg222cj\Documents\Visual Studio 2012\Projects\ASP.NET-fg222cj\KassaKvitto\KassaKvitto\obj\Debug\KassaKvitto.dll
+C:\Users\fg222cj\Documents\Visual Studio 2012\Projects\ASP.NET-fg222cj\KassaKvitto\KassaKvitto\obj\Debug\KassaKvitto.pdb
