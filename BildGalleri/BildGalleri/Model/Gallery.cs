@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
@@ -35,6 +36,45 @@ namespace BildGalleri.Model
             return imageList;
         }
 
+        private static bool IsValidImage(Image image)
+        {
+            return (image.RawFormat.Guid == System.Drawing.Imaging.ImageFormat.Gif.Guid ||
+                image.RawFormat.Guid == System.Drawing.Imaging.ImageFormat.Jpeg.Guid ||
+                image.RawFormat.Guid == System.Drawing.Imaging.ImageFormat.Png.Guid);
+        }
 
+        public static bool ImageExists(string name)
+        {
+            return GetImageNames().Contains(name); // Returnerar true om minst en fil hittas med samma namn som den som efterfrågas.
+        }
+
+        public static string SaveImage(Stream stream, string fileName)
+        {
+            var image = Image.FromStream(stream);
+
+            if(!IsValidImage(image))
+            {
+                throw new BadImageFormatException();
+            }
+
+            if(ImageExists(fileName))
+            {
+                var i = 0;
+                var name = Path.GetFileNameWithoutExtension(fileName);
+                var extension = Path.GetExtension(fileName);
+
+                do
+                {
+                    fileName = String.Format("{0} ({1}){2}", name, ++i, extension);
+                } while(ImageExists(fileName));
+            }
+
+            image.Save(Path.Combine(PhysicalUploadedImagesPath, fileName));
+
+            var thumbnail = image.GetThumbnailImage(60, 45, null, System.IntPtr.Zero);
+            thumbnail.Save(Path.Combine(PhysicalUploadedImagesPath, "Thumbs", fileName));
+
+            return fileName;
+        }
     }
 }

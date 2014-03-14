@@ -3,3 +3,8 @@ C:\Users\fg222cj\Documents\Visual Studio 2012\Projects\ASP.NET-fg222cj\BildGalle
 C:\Users\fg222cj\Documents\Visual Studio 2012\Projects\ASP.NET-fg222cj\BildGalleri\BildGalleri\bin\BildGalleri.pdb
 C:\Users\fg222cj\Documents\Visual Studio 2012\Projects\ASP.NET-fg222cj\BildGalleri\BildGalleri\obj\Debug\BildGalleri.dll
 C:\Users\fg222cj\Documents\Visual Studio 2012\Projects\ASP.NET-fg222cj\BildGalleri\BildGalleri\obj\Debug\BildGalleri.pdb
+P:\Visual Studio 2012\ASP.NET-fg222cj\BildGalleri\BildGalleri\bin\BildGalleri.dll
+P:\Visual Studio 2012\ASP.NET-fg222cj\BildGalleri\BildGalleri\bin\BildGalleri.pdb
+P:\Visual Studio 2012\ASP.NET-fg222cj\BildGalleri\BildGalleri\obj\Debug\BildGalleri.csprojResolveAssemblyReference.cache
+P:\Visual Studio 2012\ASP.NET-fg222cj\BildGalleri\BildGalleri\obj\Debug\BildGalleri.dll
+P:\Visual Studio 2012\ASP.NET-fg222cj\BildGalleri\BildGalleri\obj\Debug\BildGalleri.pdb

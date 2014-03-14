@@ -19,13 +19,20 @@
                 <ItemTemplate>
                     <li>
                         <asp:HyperLink ID="HyperLink1" runat="server" 
-                            ImageUrl='<%# Item.ToString() %>'></asp:HyperLink>
+                            ImageUrl='<%# "~/Images/Thumbs/" + Item %>'
+                            NavigateUrl='<%# "?name=" + Item %>' ></asp:HyperLink>
                     </li>
                 </ItemTemplate>
                 <FooterTemplate>
                     </ul>
                 </FooterTemplate>
             </asp:Repeater>
+        </div>
+        <div>
+            <asp:FileUpload ID="FileUpload1" runat="server" AllowMultiple="True" />
+        </div>
+        <div>
+            <asp:Button ID="ButtonUpload" runat="server" Text="Bekräfta" OnClick="ButtonUpload_Click" />
         </div>
     </form>
 </body>

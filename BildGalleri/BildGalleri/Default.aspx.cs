@@ -1,6 +1,7 @@
 ﻿using BildGalleri.Model;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -18,6 +19,30 @@ namespace BildGalleri
         public IEnumerable<string> Repeater1_GetData()
         {
             return Gallery.GetImageNames();
+        }
+
+        protected void ButtonUpload_Click(object sender, EventArgs e)
+        {
+            if (FileUpload1.HasFiles)
+            {
+                foreach (HttpPostedFile file in FileUpload1.PostedFiles)
+                {
+                    try
+                    {
+                        Gallery.SaveImage(file.InputStream, file.FileName);
+                    }
+
+                    catch (BadImageFormatException)
+                    {
+                        string errorMessage = "Felaktigt filformat";
+                    }
+
+                    catch
+                    {
+                        string errorMessage = "Något sket sig";
+                    }
+                }
+            }
         }
     }
 }
